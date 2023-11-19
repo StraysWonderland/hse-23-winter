@@ -12,7 +12,7 @@ services:
       - "5432:5432"
   
   spring-app:
-    image: test-java:v0.1
+    image: hse-23-winter:191123
     build:
       context: .
       dockerfile: Dockerfile
